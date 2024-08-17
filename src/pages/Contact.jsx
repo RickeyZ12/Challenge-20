@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: 'Rickey Zheng',
+    email: 'zheng.rickey55@gmail.com',
+    github: 'https://github.com/RickeyZ12',
   });
 
   const [errors, setErrors] = useState({});
